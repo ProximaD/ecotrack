@@ -1,5 +1,6 @@
 import React from 'react';
-import { Smartphone, ArrowRight, CheckCircle, Globe, BarChart3, Leaf } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Smartphone, ArrowRight, CheckCircle, Globe, BarChart3, Leaf, Recycle, Footprints } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -38,10 +39,46 @@ export default function Hero() {
           </div>
           
           {/* Phone Mockup */}
-          <div className="relative">
-            <img src="/img/ecotrackmockup.png" 
-            alt="Phone Mockup" 
-            className="mx-auto w-80 h-auto drop-shadow-2xl" 
+          <div className="relative flex justify-center items-center">
+
+            {/* Floating Icons */}
+            <motion.div
+              className="absolute top-2 left-2 text-green-500"
+              animate={{ y: [0, -10, 0] }}
+              transition={{ repeat: Infinity, duration: 3 }}
+            >
+              <Leaf size={36} />
+            </motion.div>
+
+            <motion.div
+              className="absolute top-12 right-4 text-emerald-500"
+              animate={{ y: [0, 15, 0] }}
+              transition={{ repeat: Infinity, duration: 4 }}
+            >
+              <Recycle size={38} />
+            </motion.div>
+
+            <motion.div
+              className="absolute bottom-10 -left-10 text-blue-500"
+              animate={{ y: [0, -12, 0] }}
+              transition={{ repeat: Infinity, duration: 5 }}
+            >
+              <Globe size={42} />
+            </motion.div>
+
+            <motion.div
+              className="absolute -bottom-8 right-12 text-green-400"
+              animate={{ y: [0, 10, 0] }}
+              transition={{ repeat: Infinity, duration: 3.5 }}
+            >
+              <Footprints size={36} />
+            </motion.div>
+
+            {/* Phone Image */}
+            <img 
+              src="/img/ecotrackmockup.png" 
+              alt="Phone Mockup" 
+              className="mx-auto w-80 h-auto drop-shadow-2xl relative z-10" 
             />
           </div>
         </div>

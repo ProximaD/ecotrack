@@ -299,9 +299,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Contact
 
-**Your Name** - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
+**Your Name** - Sandra Lavenda
 
-**Project Link**: [https://github.com/yourusername/ecotrack-landing](https://github.com/yourusername/ecotrack-landing)
+**Project Link**: https://github.com/ProximaD/ecotrack
 
 **Live Demo**: [https://ecotrack-landing.vercel.app](https://ecotrack-landing.vercel.app)
 

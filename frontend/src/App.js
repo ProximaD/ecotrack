@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
+import HowItWorks from './components/HowItWorks';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Hero />
       <Features />
+      <HowItWorks />
     </div>
   );
 }

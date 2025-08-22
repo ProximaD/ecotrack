@@ -43,7 +43,7 @@ export default function Hero() {
 
             {/* Floating Icons */}
             <motion.div
-              className="absolute top-2 left-2 text-green-500"
+              className="absolute top-12 left-4 text-green-500"
               animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 3 }}
             >
@@ -59,7 +59,7 @@ export default function Hero() {
             </motion.div>
 
             <motion.div
-              className="absolute bottom-10 -left-10 text-blue-500"
+              className="absolute bottom-12 left-4 text-blue-500"
               animate={{ y: [0, -12, 0] }}
               transition={{ repeat: Infinity, duration: 5 }}
             >
@@ -67,7 +67,7 @@ export default function Hero() {
             </motion.div>
 
             <motion.div
-              className="absolute -bottom-8 right-12 text-green-400"
+              className="absolute bottom-12 right-4 text-green-400"
               animate={{ y: [0, 10, 0] }}
               transition={{ repeat: Infinity, duration: 3.5 }}
             >

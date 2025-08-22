@@ -18,7 +18,7 @@ export default function Navbar() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-green-600 transition-colors">Home</a>
+            <a href="#hero" className="text-gray-700 hover:text-green-600 transition-colors">Home</a>
             <a href="#features" className="text-gray-700 hover:text-green-600 transition-colors">Features</a>
             <a href="#how-it-works" className="text-gray-700 hover:text-green-600 transition-colors">How It Works</a>
             <a href="#testimonials" className="text-gray-700 hover:text-green-600 transition-colors">Reviews</a>
@@ -41,6 +41,7 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100">
           <div className="px-4 py-2 space-y-1">
+            <a href="#hero" className="block px-3 py-2 text-gray-700 hover:text-green-600">Home</a>
             <a href="#features" className="block px-3 py-2 text-gray-700 hover:text-green-600">Features</a>
             <a href="#how-it-works" className="block px-3 py-2 text-gray-700 hover:text-green-600">How It Works</a>
             <a href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-green-600">Reviews</a>

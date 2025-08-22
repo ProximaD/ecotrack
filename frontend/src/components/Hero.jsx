@@ -39,26 +39,10 @@ export default function Hero() {
           
           {/* Phone Mockup */}
           <div className="relative">
-            <div className="relative mx-auto w-80 h-96 bg-gray-900 rounded-3xl p-2 shadow-2xl">
-              <div className="w-full h-full bg-gradient-to-br from-green-400 to-blue-500 rounded-2xl flex flex-col items-center justify-center text-white p-8">
-                <div className="text-center mb-6">
-                  <Leaf className="h-16 w-16 mx-auto mb-4 text-white" />
-                  <h3 className="text-2xl font-bold">EcoTrack</h3>
-                </div>
-                <div className="bg-white/20 backdrop-blur rounded-lg p-4 w-full">
-                  <div className="text-sm opacity-90 mb-2">Today's Impact</div>
-                  <div className="text-3xl font-bold">2.3 kg</div>
-                  <div className="text-sm opacity-90">CO₂ Saved</div>
-                </div>
-              </div>
-            </div>
-            {/* Floating elements */}
-            <div className="absolute -top-4 -right-4 bg-white rounded-full p-3 shadow-lg animate-bounce">
-              <Globe className="h-6 w-6 text-green-500" />
-            </div>
-            <div className="absolute -bottom-4 -left-4 bg-white rounded-full p-3 shadow-lg animate-pulse">
-              <BarChart3 className="h-6 w-6 text-blue-500" />
-            </div>
+            <img src="/img/ecotrackmockup.png" 
+            alt="Phone Mockup" 
+            className="mx-auto w-80 h-auto drop-shadow-2xl" 
+            />
           </div>
         </div>
       </div>

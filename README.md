@@ -5,6 +5,8 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-3.3.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Lucide-Icons-000000?style=for-the-badge&logo=lucide&logoColor=white" alt="Lucide Icons" />
+  <img src="https://img.shields.io/badge/Framer-Motion-000000?style=for-the-badge&logo=Framer&logoColor=white" alt="Framer Motion" />
+  
 </div>
 
 <div align="center">

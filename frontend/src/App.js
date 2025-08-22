@@ -1,22 +1,25 @@
 import './App.css';
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
 import Stats from './components/Stats';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="min-h-screen bg-white">
       <Home />
       <Hero />
       <Features />
       <HowItWorks />
       <Testimonials />
       <Stats />
+      <CTA />
+      <Footer />
     </div>
   );
 }
